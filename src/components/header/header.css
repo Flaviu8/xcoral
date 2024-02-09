@@ -1,7 +1,9 @@
-/* .banner video {
+.banner video {
     width: 100%;
-    height: auto;
-} */
+    height: 600px;
+    object-fit: cover;
+}
+
 
 .banner {
     opacity: 0.6;
@@ -10,15 +12,17 @@
 .text-absolute {
     position: absolute;
     top: 150px;
-     background-color: rgb(253, 253, 253);
+ 
      border-radius: 8px;
     left: 20px;
     right: 20px;
+    height: 200px;
+    width: 60%;
 
 }
 
 .text-absolute h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 68%;
     font-size: 36px;
     margin-left: 14px;
@@ -34,6 +38,15 @@
        font-size: 22px;
         width: 100%;
      
+    }
+
+    .text-absolute {
+        width: 90%;
+    }
+
+    .banner video {
+        width: 100%;
+        height: auto;
     }
 
 

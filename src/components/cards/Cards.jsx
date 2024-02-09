@@ -1,42 +1,40 @@
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Slider from '../slider/Slider';
 import './Cards.css'
-import data from '../../assets/cars/Cars.json'
-import tick from '../../assets/tick.png'
+import data from "../../assets/cars/Cars.json"
 
-
-export default function Cards() {
-    console.log(data.cars)
+function Cards() {
   return (
     <div className='cards-container'>
-        <div className="title">
-            <h1>Alege mașina visurilor tale</h1>
+        <div className='title-cards'>
+            <h1>Alege masina visurilor tale</h1>
         </div>
-        <div className='main'>
-        {
-            data.cars.map( (datas, index) => { 
-                return (
 
-                <div key={index} className='cards'>
-                <img src={datas.photo} />
-                <div className='text'>
-                    <div className='model-title'>
-                        <h3>{datas.title}</h3>
-                        {datas.accidents === "yes" ? <img src={tick} alt='tick'/> : ""}
-                    </div>
-                    <div className='about-container'>
-                        <h3>Preț: {datas.price} RON</h3>
-                    <h4>Descriere</h4>
-                      <p>{datas.description}</p>
-                    </div>
-                </div>
-            </div>
-        
-            )
-           
-            })
-        }
-        </div>
-        
-       
-    </div>
-  )
+        <div className='flex-container'>
+        {
+    data.cars.map((datas, index) => {
+        return (
+            <>
+            <Card key={index} style={{ width: '18rem' }}>
+            <Slider />
+            <Card.Body>
+                <Card.Title>{datas.title}</Card.Title>
+                <Card.Text>
+              {datas.description}
+                </Card.Text>
+                <Button variant="primary">Mai multe detalii</Button>
+            </Card.Body>
+            </Card>
+        </>
+        )
+    })
 }
+        </div>
+
+    </div>
+  );
+}
+
+export default Cards;
+
