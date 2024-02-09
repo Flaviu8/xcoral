@@ -12,7 +12,7 @@
 }
 
 .cards {
-    max-width: 500px;
+    max-width: 300px;
     border:  1px solid grey;
     margin-top: 16px;
     background-color: rgb(0, 0, 0);
@@ -34,7 +34,7 @@
 }
 
 .model-title img {
-    width: 20px;
+    width: 40px;
     margin-left:14px;
  }
 .model-title {
