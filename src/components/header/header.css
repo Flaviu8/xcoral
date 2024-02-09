@@ -27,6 +27,8 @@
     margin-top: 14px;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .text-absolute h1 {
        font-size: 22px;

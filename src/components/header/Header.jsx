@@ -7,7 +7,7 @@ export default function Header() {
       <div className="text-absolute">
       <h1>Vrei să fii sigur că mașina ta nu a fost accidentată, are kilometri reali sau furată? Ai bulina verde care te ajută în această situație</h1>
       </div>
-        <video src={banner} autoPlay  playsInline loop width="100%" height="auto"></video>
+        <video src={banner} autoPlay playsInline muted loop width="100%" height="auto"></video>
     </div>
   )
 }
