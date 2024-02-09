@@ -4,6 +4,7 @@
 
 .title-cards h1 {
     font-size: 28px;
+
 }
 
 .card {
@@ -32,10 +33,19 @@
 @media screen and (max-width: 768px) {
     .flex-container {
         display: block;
+        max-width: 70%;
+        margin: auto;
+        
     }
 
     .cards {
         max-width: 100%;
+    }
+
+
+    .title-cards h1 {
+        font-size: 22px;
+        
     }
 
   }

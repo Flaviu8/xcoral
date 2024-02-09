@@ -6,18 +6,16 @@
 
 
 .banner {
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .text-absolute {
     position: absolute;
     top: 150px;
- 
      border-radius: 8px;
     left: 20px;
     right: 20px;
-    height: 200px;
-    width: 60%;
+    width: 90%;
 
 }
 
@@ -25,6 +23,7 @@
     color: rgb(255, 255, 255);
     width: 68%;
     font-size: 36px;
+    font-weight: 800;
     margin-left: 14px;
     margin-right: 14px;
     margin-bottom: 14px;
@@ -37,11 +36,13 @@
     .text-absolute h1 {
        font-size: 22px;
         width: 100%;
+        color: black;
      
     }
 
     .text-absolute {
-        width: 90%;
+        width: 100%;
+      position: initial;
     }
 
     .banner video {

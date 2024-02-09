@@ -1,5 +1,5 @@
 .search-container input{
-    width: 90%;
+    width: 98%;
     height: 50px;
     font-size: 20px;
     padding-left: 8px;
@@ -13,5 +13,6 @@
 .search-container {
     display: flex;
     justify-content: center;
-    margin-top: 14px;
+    margin-top: 24px;
+
 }
