@@ -1,0 +1,69 @@
+.title {
+    margin-top: 80px;
+}
+
+.cards-container {
+    max-width: 96%;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+}
+
+.cards {
+    max-width: 500px;
+    border:  1px solid grey;
+    margin-top: 16px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    margin-right: 14px;
+
+}
+
+.cards img {
+    width: 100%;
+}
+
+.text  {
+    margin-top: 16px;
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.model-title img {
+    width: 20px;
+    margin-left:14px;
+ }
+.model-title {
+    display: flex;
+}
+
+.about-container {
+    margin-top: 20px;
+}
+
+.about-container h4 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.about-container p {
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        display: block;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+  }

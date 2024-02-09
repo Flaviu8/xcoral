@@ -1,0 +1,26 @@
+{
+  "cars": [
+      {
+          "photo": "https://frankfurt.apollo.olxcdn.com/v1/files/tr5xz1ww0z0d3-RO/image;s=1000x700",
+          "title": "Audi a4 2.0 BPW 140 an 2007          ",
+          "accidents": "no",
+          "price": "14.689",
+          "description": "Vand audi a4 2007 2.0 bpw 140 cp un singur acx cu came cutie automata dublu climatronic pilot automat bi xenon gemuri electrice spălător faruri cotiere fata spate oglinzi electrice încălzire în scaune senzori parcare computer bord navi tub de bas lumini ambientale volan reglabil cârlig remorcare anvelope noi m+s preț 3600e neg"
+      },
+      {
+          "photo": "https://frankfurt.apollo.olxcdn.com/v1/files/o9g6prql4tx4-RO/image;s=1000x700",
+          "accidents": "yes",
+          "title": "Volskwagen Golf 6 cu km reali si foarte bine intretinut          ",
+          "price": "26.289",
+          "description": "Auto foarte bine intretinut si fara nicio problema de functionare Accept testare autorizata Servodirecție Vopsea originală AC Jenti de tabla cu capace"
+     
+      },
+      {
+          "photo": "https://frankfurt.apollo.olxcdn.com/v1/files/imia82yl2u9k2-RO/image;s=1000x700",
+          "title": "Vw Transporter T5 * 9 Locuri ( 8+1 ) * Euro 4          ",
+          "accidents": "no",
+          "price": "32.089",
+          "description": "Motorizare 2.5 tdi * Euro 4 * 131 Cp Autoturism 9 Locuri ( 8+1 Nu accept schimburi          "
+      }
+  ]
+}

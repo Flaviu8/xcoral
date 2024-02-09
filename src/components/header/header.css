@@ -1,0 +1,40 @@
+/* .banner video {
+    width: 100%;
+    height: auto;
+} */
+
+.banner {
+    opacity: 0.6;
+}
+
+.text-absolute {
+    position: absolute;
+    top: 200px;
+     background-color: rgb(253, 253, 253);
+     border-radius: 8px;
+    left: 20px;
+    right: 20px;
+
+}
+
+.text-absolute h1 {
+    color: rgb(0, 0, 0);
+    width: 68%;
+    font-size: 36px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .text-absolute h1 {
+       font-size: 22px;
+        width: 100%;
+     
+    }
+
+
+
+  }
+
