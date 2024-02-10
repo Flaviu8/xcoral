@@ -19,6 +19,10 @@
     width: 30px;
   }
 
+  .navbar p {
+    font-size: 10px;
+  }
+
   .navbar .add {
     width: 60px;
   }
