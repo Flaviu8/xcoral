@@ -137,10 +137,15 @@ form button:hover {
         display: inherit;
     }
 
+    .footer-content h6 {
+        margin-top: 14px;
+    }
+
+    .footer-content a {
+        font-size: 12px;
+    }
+
     form input {
-        border-radius: 6px;
-        margin-left: 4px;
-        padding-left: 4px;
         width: 200px;
         height: 40px;
      }
@@ -157,7 +162,7 @@ form button:hover {
 
     .copyright p {
         margin-top: 14px;
-        font-size: 18px;
+        font-size: 14px;
     }
        .footer-content {
         margin-left: 12px;
