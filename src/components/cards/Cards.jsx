@@ -8,7 +8,7 @@ function Cards() {
   return (
     <div className='cards-container'>
         <div className='title-cards'>
-            <h1>Alege masina visurilor tale</h1>
+            <h1> 🚀 Alege masina visurilor tale</h1>
         </div>
 
         <div className='flex-container'>

@@ -1,17 +1,12 @@
 import {useState} from 'react';
 import { NavLink, Link} from "react-router-dom";
 import './navbar.css'
-import hamburgerIcon from "../../assets/menu-icon.svg"
 import xIcon from "../../assets/x-symbol.svg"
 
 
 
 function NavigationBar () {
   const [showMenu, setShowMenu] = useState(false);
-
-
-
-
 
 
   const toggleMenu = () => {
@@ -21,7 +16,6 @@ function NavigationBar () {
 
   return (
     <div className='nav_main'>
-      <img className='hamburger' src={hamburgerIcon} alt='menu' onClick={toggleMenu}/>
         <Link className='logo' href="/"><h2>XCoral</h2></Link>
         <ul className={`navigation ${showMenu ? 'showMenu' : ''}`}>
         <div className='close_btn'>
