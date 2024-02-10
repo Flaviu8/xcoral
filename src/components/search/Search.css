@@ -135,16 +135,13 @@ margin-top: 6px;
     .search {
         width: 96%;
        }
-       .dropdown-btn {
-        width: 98%;
-      }
 
        .search-main {
         display: block;
        }
 
        .search-container {
-        width: 98%;
+        width: 96%;
         height: auto;
        }
 
@@ -156,8 +153,12 @@ margin-top: 6px;
         display: block;
        }
 
+       .dropdown-btn {
+        width: 100%;
+       }
+
        .dropdown-btn button {
-        width: 90%;
+        width: 80%;
        }
 
        .search-btn {
