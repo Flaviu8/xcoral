@@ -10,11 +10,11 @@ export default function Nav() {
   return (
     <div>
         <div className="navbar">
-        <Link to="/" className="active"><img src={home} alt="" /></Link> Acasa
-        <Link to="/" ><img src={about} alt="" /></Link> 
+        <Link to="/" className="active"><img src={home} alt="" /><p>Acasa</p></Link>
+        <Link to="/" ><img src={about} alt="" /><p>Despre noi</p></Link> 
         <Link to="/" ><img className='add' src={add} alt="" /></Link>  
-        <Link to="/"><img src={info} alt="" /></Link>
-        <Link to="/"><img src={prices} alt="" /></Link>
+        <Link to="/"><img src={info} alt="" /><p>Contact</p></Link>
+        <Link to="/"><img src={prices} alt="" /><p>Preturi</p></Link>
     </div>
     </div>
   )
