@@ -106,6 +106,11 @@ form button:hover {
     color: #000;
 }
 
+.null {
+    color: #FFFFFF;
+    display: none;
+}
+
 @media screen and (max-width: 1028px) {
    footer {
         width: 98%;
@@ -123,6 +128,19 @@ form button:hover {
         width: 98%;
     }
 
+    .null {
+        display: inherit;
+    }
+
+    form input {
+        border-radius: 6px;
+        margin-left: 4px;
+        padding-left: 4px;
+        width: 220px;
+        height: 40px;
+     }
+     
+     
     .copyright {
         display: block;
         margin-left: 12px;
