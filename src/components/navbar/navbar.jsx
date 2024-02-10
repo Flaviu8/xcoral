@@ -24,7 +24,7 @@ function NavigationBar () {
             <li><NavLink to="/">Acasă</NavLink></li>
             <li><NavLink to="/despre">Despre</NavLink></li>
             <li><NavLink to="/contactează-ne">Contactează-ne</NavLink></li>
-            <li><NavLink to={`/demo`}>Prețuri</NavLink></li>
+            <li><NavLink to={`/pret`}>Prețuri</NavLink></li>
           </ul>
       <div className='publish'>
         <button>Postează o mașină</button>

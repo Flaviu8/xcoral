@@ -1,0 +1,131 @@
+.title-price {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+}
+
+.offer h2 {
+    font-size: 20px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    
+}
+
+.card-price {
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px black;
+    margin-left: 24px;
+}
+
+.card-price span {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.card-price li {
+    margin-top: 14px;
+}
+
+#middle ul li {
+    color: #FFFFFF;
+}
+
+#middle {
+    background-color: black;
+    width: 380px;
+    height: 420px;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+
+}
+
+.card-price h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 25px;
+}
+
+.card-price p {
+    text-align: center;
+}
+
+#middle h3 {
+    color: white;
+}
+
+#middle p {
+    color: white;
+}
+
+.btn-order {
+    display: flex;
+    justify-content: center;
+    position: relative;
+   top: 10px;
+}
+
+.btn-order button {
+    background-color: #555555;
+    color: #FFFFFF;
+    width: 140px;
+    height: 36px;
+    border-radius: 6px;
+}
+
+.btn-order button:hover {
+    background-color: #FFFFFF;
+    color: #555555;
+}
+
+@media screen and (max-width: 768px) {
+    .card-content {
+        display: block;
+    }
+
+    .card-price {
+        width: 70%;
+        margin: auto;
+    }
+
+    #middle {
+     width: 72%;
+    }
+
+    .offer {
+        width: 100%;
+
+    }
+
+    .offer h2 {
+        font-size: 16px;
+    }
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+

@@ -16,7 +16,7 @@ function Cards() {
     data.cars.map((datas, index) => {
         return (
             <>
-            <Card key={index} style={{ width: '18rem' }}>
+            <Card key={index} style={{ width: '22rem' }}>
             <Slider />
             <Card.Body>
                 <Card.Title>{datas.title}</Card.Title>

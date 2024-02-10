@@ -29,6 +29,15 @@
 
 }
 
+.card-body button {
+    background-color: #555555;
+}
+
+.card-body button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 
 
 @media screen and (max-width: 768px) {
