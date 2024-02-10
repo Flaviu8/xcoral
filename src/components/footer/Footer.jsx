@@ -41,13 +41,13 @@ export default function Footer() {
                 </div>
                 <div className='footer-content'>
                     <div className='links'>
-                        <h4>Linkuri utile</h4>
+                        <h6>Linkuri utile</h6>
                         <NavLink to="/termeni">Termeni și condiții</NavLink>
                         <NavLink to="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO">SOL</NavLink>
                         <NavLink to="https://anpc.ro/ce-este-sal/">ANPC</NavLink>
                     </div>
                         <div className='social-links'>
-                            <h4>Social media</h4>
+                            <h6>Social media</h6>
                             <img src={facebook} alt="fb" />
                             <img src={instagram} alt="insta" />
                             <img src={twitter} alt="twitter" />
