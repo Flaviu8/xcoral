@@ -83,6 +83,8 @@ footer  {
     color: #000000;
 }
 
+
+
 form input {
    border-radius: 6px;
    margin-left: 4px;
@@ -114,6 +116,7 @@ form button:hover {
 @media screen and (max-width: 1028px) {
    footer {
         width: 98%;
+      
     }
 
     .line {
@@ -127,7 +130,9 @@ form button:hover {
     footer {
         width: 98%;
     }
-
+.footer-content {
+    display: block;
+}
     .null {
         display: inherit;
     }
