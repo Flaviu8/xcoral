@@ -136,8 +136,12 @@ form button:hover {
         border-radius: 6px;
         margin-left: 4px;
         padding-left: 4px;
-        width: 220px;
+        width: 200px;
         height: 40px;
+     }
+
+     form button {
+        width: 100px;
      }
      
      
