@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 export default function Nav() {
   return (
     <div>
-        <div className="navbar">
+        <div className="navba">
         <Link to="/" className="active"><img src={home} alt="" /><p>Acasa</p></Link>
         <Link to="/" ><img src={about} alt="" /><p>Despre noi</p></Link> 
         <Link to="/" ><img className='add' src={add} alt="" /></Link>  

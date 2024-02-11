@@ -108,6 +108,10 @@ form button:hover {
     color: #000;
 }
 
+.null {
+    color: #FFFFFF;
+    display: none;
+}
 
 @media screen and (max-width: 1028px) {
    footer {

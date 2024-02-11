@@ -67,6 +67,10 @@ export default function Footer() {
                 <img src={sal} alt="sal" />
             </div>
         </footer>
+        <div className='null'>
+            <p>H</p>
+        </div>
+        <div className='null'><p>p</p></div>
         <div>
             <Nav />
         </div>
