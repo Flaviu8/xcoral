@@ -1,0 +1,55 @@
+.details-title {
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.details-title h1 {
+    font-size: 28px;
+}
+
+.hline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(209, 208, 208);
+    padding: 0;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.details-container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.container-b {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+}
+
+.container-price p {
+    font-size: 28px;
+    color: red;
+    font-weight: 600;
+}
+
+.carosel .slide {
+    width: 80% !important;
+}
+
+.carousel-item {
+    width: 50% !important;
+}
+
+
+
+.carousel-item img {
+    width: 60%;
+}
+
+
+
+
